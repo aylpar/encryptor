@@ -3,7 +3,7 @@ var express = require('express');
 var app = express(); 
 var port = 1600; 
 app.listen(process.env.PORT || port, function(){
-    console.log('cybertronian');
+    console.log('cryptronian works');
 });
 
 app.use(express.static(__dirname + '/public'));
